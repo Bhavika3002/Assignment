@@ -1,0 +1,60 @@
+<!-- Calculator -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style6.css" />
+</head>
+<body>
+    <div class="">
+        <div class=" d-flex justify-content-center">
+            <div class="text-center shadow" id="main_box">
+                <div class="row">
+                    <div class="col-12" id="text"><input type="text" class="form-control"  value="0" name="result" id="result"></div>
+                </div>
+                <div class="row">
+                    <div class=" col-3"><input type="button" class="btn btn-block btn-danger" value="c" onclick="clr()" /></div>
+                    <div class=" col-3"><input type="button" value="&#8592" class="btn btn-block btn-dark" onclick="backspace()" /></div>
+                    <div class=" col-3"><input type="button"class="btn btn-block btn-dark" value="sq" onclick="square()" /></div>
+                    <div class=" col-3"><input type="button"class="btn btn-block btn-dark" value="/" onclick="display('/')" /></div>
+                </div>
+                <div class="row">
+                    <div class=" col-3"><input type="button"class="btn btn-block btn-dark" value="7" onclick="display('7')" /></div>
+                    <div class=" col-3"><input type="button"class="btn btn-block btn-dark" value="8" onclick="display('8')" /></div>
+                    <div class=" col-3"><input type="button"class="btn btn-block btn-dark" value="9" onclick="display('9')" /></div>
+                    <div class=" col-3"><input type="button"class="btn btn-block btn-dark" value="x" onclick="display('*')" /></div>
+                </div>
+                <div class="row">
+                    <div class=" col-3"><input type="button"class="btn btn-block btn-dark" value="4" onclick="display('4')" /></div>
+                    <div class=" col-3"><input type="button"class="btn btn-block btn-dark" value="5" onclick="display('5')" /></div>
+                    <div class=" col-3"><input type="button"class="btn btn-block btn-dark" value="6" onclick="display('6')" /></div>
+                    <div class=" col-3"><input type="button"class="btn btn-block btn-dark" value="-" onclick="display('-')" /></div>
+                </div>
+                <div class="row">
+                    <div class=" col-3"><input type="button"class="btn btn-block btn-dark" value="1" onclick="display('1')" /></div>
+                    <div class=" col-3"><input type="button"class="btn btn-block btn-dark" value="2" onclick="display('2')" /></div>
+                    <div class=" col-3"><input type="button"class="btn btn-block btn-dark" value="3" onclick="display('3')" /></div>
+                    <div class=" col-3"><input type="button"class="btn btn-block btn-dark" value="+" onclick="display('+')" /></div>
+                </div>
+                <div class="row">
+                    <div class=" col-6"><input type="button"class="btn btn-block btn-dark" value="0" onclick="display('0')" /></div>
+                    <div class=" col-3"><input type="button"class="btn btn-block btn-dark" value="." onclick="display('.')" /></div>
+                    <div class=" col-3"><input type="button"class="btn btn-block btn-info" value="=" onclick="solve()" /></div>
+                </div>
+                
+            </div>
+            
+        </div>
+    </div>
+
+</body>
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->
+<script src="./ass6.js"></script>
+</html>
