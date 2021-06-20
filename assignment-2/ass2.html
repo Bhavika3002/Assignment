@@ -1,0 +1,77 @@
+<!--ASSIGNMENT 2-->
+<!DOCTYPE html>
+<html>
+
+<body>
+    <table style="border: 2px solid black; margin-left: 300px;">
+        <style>
+            th,
+            td {
+                border: 2px solid black;
+            }
+        </style>
+        <tr style="font-size: xx-large;">
+            <th>IMAGES</th>
+            <th>DESCRIPTION</th>
+        </tr>
+        <tr>
+            <td> <img src="beach.jpg" width="300px" height="200px" /> </td>
+            <td><i style="font-size: x-large;"><strong>
+            Happiness is the day at the beach.
+        </i></strong>
+            </td>
+        </tr>
+        <tr>
+            <td> <img src="desert.jpg" width="300px" height="200px" /> </td>
+            <td><i style="font-size: x-large;"><strong>
+            Desert.... is a very good place to find yourself.
+        </i></strong>
+            </td>
+        </tr>
+        <tr>
+            <td> <img src="landscape.jpg" width="300px" height="200px" /> </td>
+            <td><i style="font-size: x-large;"><strong>
+            I love to photograph the gorgeous landscape when I travel.
+        </i></strong>
+            </td>
+        </tr>
+        <tr>
+            <td> <img src="mountain.jpg" width="300px" height="200px" /> </td>
+            <td><i style="font-size: x-large;"><strong>
+            The sun shines brightest from the peak of mountains
+        </i></strong>
+            </td>
+        </tr>
+    </table>
+    <br />
+    <br />
+    <form>
+        <label style="font-weight: bold; font-size:larger; margin-left: 400px;" for="firstname">First name
+    </label>
+        <input type="text" name="firstname" placeholder="Enter first name" />
+        <br /><br />
+        <label style="font-weight:bold; font-size:larger; margin-left:400px ;" for="lastname">Last name
+    </label>
+        <input type="text" name="lastname" placeholder="Enter second name" />
+        <br /><br />
+        <p style="font-size: x-large; font-weight: bold;">
+            Choose your favourite from above four locations
+        </p>
+        <input type="radio" name="locations" value="beach" />
+        <label style="font-weight: bold;font-size: larger;" for="beach">Beach</label>
+        <br />
+        <input type="radio" name="locations" value="desert" />
+        <label style="font-weight: bold; font-size: larger;" for="desert">Desert</label>
+        <br />
+        <input type="radio" name="locations" value="landscape" />
+        <label style="font-weight: bold; font-size: larger;" for="landscape">Landscape</label>
+        <br />
+        <input type="radio" name="locations" value="mountains" />
+        <label style="font-weight: bold;font-size: larger;" for="mountains">Mountains</label>
+        <br />
+        <br />
+        <input style="font-size:larger; font-weight: bold;" type="submit" value="SUBMIT" />
+    </form>
+</body>
+
+</html>
