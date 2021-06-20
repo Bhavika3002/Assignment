@@ -1,0 +1,19 @@
+body {
+    background-image: url('open mic.jpg');
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+label {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: xx-large;
+}
+
+input {
+    font-size: larger;
+}
